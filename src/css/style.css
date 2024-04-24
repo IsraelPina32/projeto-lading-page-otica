@@ -1,0 +1,89 @@
+body {
+    height: 100vh;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--verde-esmeralda);
+    padding: 20px;
+}
+
+.header .conteudo-header {
+    display: flex;
+    gap: 30px;
+    align-items: center;
+}
+
+.header .conteudo-header .logo-belle {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 40%;
+    padding: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+.header .conteudo-header .logo-belle:hover {
+    transform: scale(1.1);
+}
+
+.header .conteudo-header .titulo-header {
+    color: var(--branco);
+    font-size: 32px;
+}
+
+.header .conteudo-header span {
+    color: var(--verde-escuro);
+}
+
+.header nav .menu , .header nav .menu li a {
+    display: flex;
+    padding: 25px;
+    font-size: 22px;
+    font-weight: bold;
+    color: var(--branco);
+}
+
+.header nav .menu li:hover {
+    border-bottom: 1px solid var(--branco);
+}
+
+.home {
+    background-image: url(../img/oculos-escuro-32-graus-2.jpeg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-repeat: no-repeat;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    height: 100%;
+    width: 100%;
+}
+
+.home .titulo-home {
+    color: var(--verde-esmeralda);
+    font-size: 3rem;
+    font-weight: 600;
+}
+
+.home .btn {
+    border: none;
+    background: none;
+    background-color: var(--verde-esmeralda);
+    color: var(--branco);
+    padding: 35px;
+    border-radius: 40px;
+    font-size: 1.175rem;
+    transition: 0.2s ease-in-out;
+}
+
+.home .btn:hover {
+    color: var(--verde-esmeralda);
+    background-color: var(--branco);
+    transform: scale(1.1);
+}
+
