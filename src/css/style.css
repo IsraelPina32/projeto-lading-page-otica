@@ -1,56 +1,14 @@
 body {
-    height: 100vh;
+  
 }
 
-.header {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background-color: var(--verde-esmeralda);
-    padding: 20px;
-}
-
-.header .conteudo-header {
-    display: flex;
-    gap: 30px;
-    align-items: center;
-}
-
-.header .conteudo-header .logo-belle {
-    width: 9rem;
-    height: 9rem;
-    border-radius: 40%;
-    padding: 15px;
-    transition: 0.2s ease-in-out;
-}
-
-.header .conteudo-header .logo-belle:hover {
-    transform: scale(1.1);
-}
-
-.header .conteudo-header .titulo-header {
-    color: var(--branco);
-    font-size: 32px;
-}
-
-.header .conteudo-header span {
-    color: var(--verde-escuro);
-}
-
-.header nav .menu , .header nav .menu li a {
-    display: flex;
-    padding: 25px;
-    font-size: 22px;
-    font-weight: bold;
-    color: var(--branco);
-}
 
 .header nav .menu li:hover {
     border-bottom: 1px solid var(--branco);
 }
 
 .home {
-    background-image: url(../img/oculos-escuro-32-graus-2.jpeg);
+    background-image: url(../img/oculos-prata-de-lado-esquerdo.jpeg);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
@@ -58,32 +16,86 @@ body {
     display: flex;
     align-items: center;
     flex-direction: column;
+    text-align: center;
     justify-content: center;
     gap: 20px;
-    height: 100%;
-    width: 100%;
+    height: 100vh;
 }
 
+.home .container-home {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
 .home .titulo-home {
-    color: var(--verde-esmeralda);
+    color: var(--azul-claro);
     font-size: 3rem;
-    font-weight: 600;
+    font-weight: 900;
 }
 
 .home .btn {
     border: none;
     background: none;
-    background-color: var(--verde-esmeralda);
+    background-color: var(--azul-claro);
     color: var(--branco);
     padding: 35px;
     border-radius: 40px;
     font-size: 1.175rem;
-    transition: 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out;
 }
 
 .home .btn:hover {
-    color: var(--verde-esmeralda);
+    color: var(--azul-claro);
+    font-weight: 600;
     background-color: var(--branco);
+    transform: scale(1.1);
+    transition: all 0.2s ease-in-out;
+}
+
+.home p {
+    font-size: 1.4rem;
+    font-weight: 800;
+    color: var(--branco);
+}
+
+.sobre {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.sobre .container-sobre {
+    display: flex;
+    align-items: center;
+    gap: 10rem;
+}
+
+.sobre .container-sobre div .logo-belle {
+    max-width: calc(500 / 16 * 1rem);
+    border-radius: 15px;
+    transition: all 0.2s ease-in-out;
+}
+
+.sobre .container-sobre div .logo-belle:hover {
     transform: scale(1.1);
 }
 
+.container-sobre .sobre-informacoes h2{
+    color: var(--azul-claro);
+    font-weight: 900;
+    font-size: 2rem;
+    margin-bottom: 0.9rem;
+}
+
+.container-sobre .sobre-informacoes p {
+    color: var(--azul-claro);
+    font-weight: 600;
+    font-size: 1.5rem;
+}

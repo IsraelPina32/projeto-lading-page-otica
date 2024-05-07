@@ -1,0 +1,52 @@
+.header .container-fixo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--azul-claro);
+    position: fixed;
+    width: 100%;
+    padding: 0 1.2rem;
+}
+
+.header .conteudo-header {
+    display: flex;
+    align-items: center;
+}
+
+.header .conteudo-header .logo-belle {
+    width: 9rem;
+    height: 9rem;
+    border-radius: 40%;
+    padding: 15px;
+    transition: 0.2s ease-in-out;
+}
+
+.header .conteudo-header .logo-belle:hover {
+    transform: scale(1.1);
+}
+
+.header .conteudo-header .titulo-header {
+    color: var(--branco);
+    font-size: 32px;
+}
+
+.header .conteudo-header span {
+    color: var(--azul-escuro);
+    font-weight: 900;
+}
+
+.header nav .menu {
+    display: flex;
+    gap: 3rem;
+} 
+.header nav .menu li a {
+    padding: 0.6rem 1.1rem;
+    font-size: 1.4rem;
+    font-weight: bold;
+    color: var(--branco);
+}
+
+.header nav .menu li a:hover {
+    font-weight: 900;
+    opacity: 1.1;
+}

@@ -9,29 +9,47 @@
 
     <link rel="stylesheet" href="./src/css/reset.css">
     <link rel="stylesheet" href="./src/css/style.css">
+    <link rel="stylesheet" href="./src/css/menu.css">
     <link rel="stylesheet" href="./src/css/variables.css">
 </head>
 <body>
         <header class="header">
-            <div class="conteudo-header">
-                <img src="./src/img/logo-otica.jpg" alt="Logo da Ótica Bella" class="logo-belle">
-                <h2 class="titulo-header">Ótica <span>Belle</span></h2>
+            <div class="container-fixo">
+                <div class="conteudo-header">
+                    <img src="./src/img/logo-otica.jpg" alt="Logo da Ótica Bella" class="logo-belle">
+                    <h2 class="titulo-header">Ótica <span>Belle</span></h2>
+                </div>
+               
+                <nav>
+                    <ul class="menu">
+                        <li><a href="#home">Home</a></li>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#produtos">Produtos</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
             </div>
            
-            <nav>
-                <ul class="menu">
-                    <li><a href="#home">Home</a></li>
-                    <li><a href="#sobre">Sobre</a></li>
-                    <li><a href="#produtos">Produtos</a></li>
-                    <li><a href="#contato">Contato</a></li>
-                </ul>
-            </nav>
         </header>
         <section class="home">
-            <h1 class="titulo-home">A Melhor Ótica De Belém!</h1>
-            <button class="btn">Veja os Novos Produtos!</button>
+            <div class="container-home">
+                <h1 class="titulo-home">A Melhor Ótica De Belém!</h1>
+                <button class="btn">Veja os Novos Produtos!</button>
+                <p>Veja nosso melhores produtos abaixo </p>
+            </div>
         </section>
-        <section class="sobre"></section>
+        <section class="sobre">
+            <div class="container-sobre">
+                <div>
+                    <img src="./src/img/logo-otica-belle.jpeg" alt="Logo Ótic Belle" class="logo-belle">
+                </div>
+                <div class="sobre-informacoes">
+                    <h2>Sobre a Ótica Belle</h2>
+                    <p>Conhecendo nossa Ótica, o que fazemos?</p>
+                </div>
+            </div>
+
+        </section>
         <section class="produtos"></section>
         <section class="contato"></section>
     
