@@ -143,11 +143,38 @@ button {
 
 .oculos-belle {
     max-width: calc(300 / 16 * 1rem);
-    border: 2px solid var(--azul-claro);
-    border-radius: 30px;
+    border: 2px solid var(--azul-claro-acizentado);
+    border-radius: 12px;
     transition: 0.2s ease-in-out;
 }
 
 .oculos-belle:hover {
-
+    
 }
+
+.contato {
+    background-color: var(--azul-escuro);
+    height: 70vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 1rem;
+}
+
+.contato div, .contato div .redes-sociais  {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    padding: 0.5rem 1rem;
+}
+
+.contato div .redes-sociais li a img {
+    transition: all 0.2s ease-in-out;
+}
+
+.contato div .redes-sociais li a img:hover {
+    transform: scale(1.2);
+}
+
