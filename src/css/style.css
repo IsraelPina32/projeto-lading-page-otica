@@ -1,24 +1,29 @@
-body {
-  
+html {
+  scroll-behavior: smooth;
 }
 
-
-.header nav .menu li:hover {
-    border-bottom: 1px solid var(--branco);
+body,
+input,
+textarea,
+button {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 400;
+  color: var(--azul-claro);
 }
 
 .home {
-    background-image: url(../img/oculos-prata-de-lado-esquerdo.jpeg);
+    background-image: url(../img/banner.png);
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
+    object-fit: contain;
     background-repeat: no-repeat;
     display: flex;
     align-items: center;
     flex-direction: column;
     text-align: center;
     justify-content: center;
-    gap: 20px;
+    gap: 1rem;
     height: 100vh;
 }
 
@@ -33,8 +38,8 @@ body {
 
 
 .home .titulo-home {
-    color: var(--azul-claro);
-    font-size: 3rem;
+    color: var(--azul-escuro);
+    font-size: 1.9rem;
     font-weight: 900;
 }
 
@@ -43,9 +48,9 @@ body {
     background: none;
     background-color: var(--azul-claro);
     color: var(--branco);
-    padding: 35px;
-    border-radius: 40px;
-    font-size: 1.175rem;
+    padding: 1rem;
+    border-radius: 45px;
+    font-size: 1.2rem;
     transition: all 0.2s ease-in-out;
 }
 
@@ -53,14 +58,16 @@ body {
     color: var(--azul-claro);
     font-weight: 600;
     background-color: var(--branco);
+    border-radius: 25px;
+    border: 1px solid var(--azul-claro);
     transform: scale(1.1);
     transition: all 0.2s ease-in-out;
 }
 
 .home p {
-    font-size: 1.4rem;
+    font-size: 1.2rem;
     font-weight: 800;
-    color: var(--branco);
+    color: var(--azul-claro-acizentado);
 }
 
 .sobre {
@@ -74,11 +81,13 @@ body {
 .sobre .container-sobre {
     display: flex;
     align-items: center;
-    gap: 10rem;
+    justify-content: center;
+    padding: 1rem 2rem;
+    gap: 2rem;
 }
 
 .sobre .container-sobre div .logo-belle {
-    max-width: calc(500 / 16 * 1rem);
+    max-width: calc(400 / 16 * 1rem);
     border-radius: 15px;
     transition: all 0.2s ease-in-out;
 }
@@ -90,12 +99,16 @@ body {
 .container-sobre .sobre-informacoes h2{
     color: var(--azul-claro);
     font-weight: 900;
-    font-size: 2rem;
+    font-size: 1.5rem;
     margin-bottom: 0.9rem;
 }
 
 .container-sobre .sobre-informacoes p {
     color: var(--azul-claro);
-    font-weight: 600;
-    font-size: 1.5rem;
+    font-weight: 400;
+    font-size: 1.2rem;
+}
+
+.container-sobre .sobre-informacoes span {
+    color: var(--azul-escuro);
 }

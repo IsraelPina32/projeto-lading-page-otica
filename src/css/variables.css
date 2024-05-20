@@ -1,6 +1,12 @@
 :root {
     --branco: #ffff;
-    --azul-claro: #67B1B4;
-    --azul-claro-acizentado: #8ad2d3;
-    --azul-escuro:#2b6163;
+    --azul-claro: #5DCBCC;
+    --azul-claro-acizentado: #76dcde;
+    --azul-claro-escuro:#24686c;
+    --azul-escuro: #032e3d;
+
+
+    /* CALCULO DE TAMANHOS  */
+    --container-width: 1109px;
+    --heigth-container: calc(51 / 16 * 1rem);
 }
