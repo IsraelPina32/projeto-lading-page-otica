@@ -40,7 +40,7 @@ button {
 .home .titulo-home {
     color: var(--azul-escuro);
     font-size: 1.9rem;
-    font-weight: 900;
+    font-weight: 500;
 }
 
 .home .btn {
@@ -66,7 +66,6 @@ button {
 
 .home p {
     font-size: 1.2rem;
-    font-weight: 800;
     color: var(--azul-claro-acizentado);
 }
 
@@ -119,17 +118,19 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    padding: 1rem;
 }
 
 .produtos h2 {
-    font-weight: 900;
+    font-weight: 400;
+    margin-bottom: 1rem;
 }
 
 .produtos div {
     display: flex;
     justify-content: center;
     align-items: center;
+    max-width: 45.4rem;
+    flex-wrap: wrap;
     gap: 1rem;
 }
 
@@ -138,18 +139,22 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
-   
 }
 
 .oculos-belle {
-    max-width: calc(300 / 16 * 1rem);
-    border: 2px solid var(--azul-claro-acizentado);
-    border-radius: 12px;
+    height: calc(130 / 16 * 1rem);
+    max-width: calc(170 / 16 * 1rem);
+    border-radius: 5px;
     transition: 0.2s ease-in-out;
 }
 
+.produto p {
+    font-weight: 400;
+    color: var(--azul-escuro);
+}
+
 .oculos-belle:hover {
-    
+    transform: scale(1.1);
 }
 
 .contato {
