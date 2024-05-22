@@ -1,9 +1,11 @@
-@media (max-width: 425px){
+@media (max-width: 1024px){
     .home {
         background-image: none;
         padding: 1rem;
     }
+}
 
+@media (max-width: 425px){
     .sobre .container-sobre {
         flex-direction: column;
     }
