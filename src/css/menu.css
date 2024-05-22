@@ -87,7 +87,7 @@
     position: relative;
     height: 2px;
     width: 30px;
-    top: 50px;
+    top: -30px;
     left: 0;
     background-color: var(--branco);
     transition: all 0.2s ease-in-out;
@@ -109,7 +109,7 @@
 }
 
 .header .hambuguer::after {
-    top: 10px;
+    top: 3px;
 }
 
 .header input {
