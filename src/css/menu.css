@@ -43,18 +43,128 @@
     font-weight: 900;
 }
 
-.header nav .menu {
-    display: flex;
-    align-items: center;
-    gap: calc(47 / 16 * 1rem);
+.header input {
+    display: none;
 }
 
-.header nav .menu li a:hover {
+.header nav ul {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.header nav ul li a:hover {
     border-bottom: 1px solid var(--branco);
 }
 
-.header nav .menu li a {
+.header nav ul li a {
     padding: 0 1.1rem;
     font-weight: bold;
     color: var(--branco);
+}
+
+
+/* Menu Hamburguer */
+
+.header .menu {
+    display: none;
+    width: 30px;
+    height: 130px;
+    align-self: flex-end;
+}
+
+
+.header nav label {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    gap: 5px;
+}
+
+.header .hambuguer {
+    content: '';
+    display: block;
+    position: relative;
+    height: 2px;
+    width: 30px;
+    top: 50px;
+    left: 0;
+    background-color: var(--branco);
+    transition: all 0.2s ease-in-out;
+}
+
+.header .hambuguer::before,
+.header .hambuguer::after {
+    content: '';
+    display: block;
+    position: absolute;
+    height: 100%;
+    width:  100%;
+    background-color: var(--branco);
+    transition: all 0.2s ease-in-out;
+}
+
+.header .hambuguer::before {
+    top: -10px;
+}
+
+.header .hambuguer::after {
+    top: 10px;
+}
+
+.header input {
+    display: none;
+}
+
+.header input:checked ~ label .hambuguer {
+    transform: rotate(45deg);
+}
+
+.header input:checked ~ label .hambuguer::after {
+    transform: rotate(90deg);
+    bottom: 0;
+}
+
+.header input:checked ~ label .hambuguer::before {
+    transform: rotate(90deg);
+    top: 0;
+}
+
+
+/* Menu Hamburguer Reponsivo */
+
+@media (max-width: 900px) {
+    .header .menu {
+        display: block;
+    }
+
+    .header nav ul {
+        display: none;
+    }
+
+    .header input:checked ~ ul {
+        display: block;
+        width: 315px;
+    }
+
+    .header nav {
+        position: absolute;
+        right: 5px;
+        top: 40px;
+        z-index: 1;
+        padding: 1rem 1rem;
+    }
+
+    .header nav ul li {
+        text-align: center;
+        padding: 1.3rem;   
+    }
+
+    .header nav ul {
+        padding: 1rem;
+        height: 18.1rem;
+        background-color: var(--azul-claro);
+        border: 1px solid var(--azul-claro-escuro);
+        border-radius: 25px;
+    }
 }
