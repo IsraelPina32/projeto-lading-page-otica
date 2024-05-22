@@ -76,13 +76,12 @@ button {
     align-items: center;
     justify-content: center;
     text-align: center;
+    padding: 1rem 2rem;
 }
 
 .sobre .container-sobre {
     display: flex;
     align-items: center;
-    justify-content: center;
-    padding: 1rem 2rem;
     gap: 2rem;
 }
 
@@ -94,6 +93,11 @@ button {
 
 .sobre .container-sobre div .logo-belle:hover {
     transform: scale(1.1);
+}
+
+
+.container-sobre .sobre-informacoes {
+    max-width: calc(550 / 16 * 1rem);
 }
 
 .container-sobre .sobre-informacoes h2{
@@ -171,6 +175,7 @@ button {
     align-items: center;
     text-align: center;
     padding: 1rem;
+    gap: 1rem;
 }
 
 .contato div, .contato div .redes-sociais  {
