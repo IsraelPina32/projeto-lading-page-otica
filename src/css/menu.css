@@ -109,7 +109,7 @@
 }
 
 .header .hambuguer::after {
-    top: 3px;
+    top: 10px;
 }
 
 .header input {
