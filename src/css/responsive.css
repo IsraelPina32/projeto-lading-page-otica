@@ -5,7 +5,7 @@
     }
 }
 
-@media (max-width: 425px){
+@media (max-width: 520px){
     .sobre .container-sobre {
         flex-direction: column;
     }
