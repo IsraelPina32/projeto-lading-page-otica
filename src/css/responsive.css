@@ -1,5 +1,25 @@
 @media (max-width: 425px){
+    .home {
+        background-image: none;
+        padding: 1rem;
+    }
+
     .sobre .container-sobre {
         flex-direction: column;
+    }
+
+    .contato div h2 {
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .sobre .container-sobre div .logo-belle {
+        max-width: calc(300 / 16 * 1rem);
+    }
+
+    .produtos {
+        height: unset;
+        padding: 1rem;
     }
 }
