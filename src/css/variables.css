@@ -1,12 +1,13 @@
 :root {
     --branco: #ffff;
+    --branco-cinza: #FFFDF1;
     --azul-claro: #5DCBCC;
     --azul-claro-acizentado: #71c1c3;
     --azul-claro-escuro:#24686c;
     --azul-escuro: #032e3d;
-
-
     /* CALCULO DE TAMANHOS  */
     --container-width: 1109px;
     --heigth-container: calc(51 / 16 * 1rem);
+    /* Fonte Padrão  */
+    --fonte-secundaria: "Josefin Sans", sans-serif;
 }
