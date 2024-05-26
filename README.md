@@ -1,9 +1,9 @@
-# Projeto Freelacer Lading Page : Advogado Thiago
+# Projeto Freelacer Lading Page : Loja Ótica Belle
 
-Lading page para Thiago Advogado com o foco em mostrar seus serviços. 
+Lading page para Loja Ótica Belle com o foco em mostrar seus serviços. 
 
 
-Ladinge Page for Thiago Lawyer with a focus on  showcasing it's services
+Ladinge Page for Belle Optical Store with a focus on  showcasing it's services
 
 ## ▶️ Demonstração , Demonstration ▶️ 
 
@@ -11,8 +11,6 @@ Ladinge Page for Thiago Lawyer with a focus on  showcasing it's services
   <img width="148" src="./public/img/demo-mobile.gif" alt="imagem-mobile">
   <img width="512" src="./public/img/demo-desktop.gif" alt="imagem-desktop">
 </div>
-
-
 
 <h1>Desktop:</h1>
 
@@ -26,14 +24,10 @@ Ladinge Page for Thiago Lawyer with a focus on  showcasing it's services
 
 ## Tecnologias utilizadas, Technologies 
  <h2> 💻Frontend: </h2>
- <img width="500px" src="https://skillicons.dev/icons?i=materialui,css,html,git,javascript" />
+ <img width="500px" src="https://skillicons.dev/icons?i=materialui,css,html,git" />
 
-
- 
 - HTML
 - CSS
-- JAVASCRIPT
-
 
 ## Site para a Hospedagem, Technologies used
 -
