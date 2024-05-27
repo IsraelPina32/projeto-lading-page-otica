@@ -5,6 +5,8 @@
     --azul-claro-acizentado: #71c1c3;
     --azul-claro-escuro:#24686c;
     --azul-escuro: #032e3d;
+    --azul-marinho: #0078C8;
+    --rosa-escuro : rgb(235,85,105);
     /* CALCULO DE TAMANHOS  */
     --container-width: 1109px;
     --heigth-container: calc(51 / 16 * 1rem);

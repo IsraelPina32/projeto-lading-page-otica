@@ -118,7 +118,7 @@ button {
     color: var(--azul-escuro);
 }
 
-.produtos {
+.produtos , .produtos-kid {
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -127,13 +127,21 @@ button {
     background-color: var(--branco-cinza);
 }
 
-.produtos h2 {
+.produtos-kid {
+    background-color: var(--azul-marinho);
+}
+
+.produtos-kid div:first-child {
+    padding: 1rem;
+}
+
+.produtos h2 , .produtos-kid h2 {
     font-family: var(--fonte-secundaria);
     font-weight: 400;
     margin-bottom: 1rem;
 }
 
-.produtos div {
+.produtos div , .produtos-kid div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -142,11 +150,25 @@ button {
     gap: 1rem;
 }
 
-.produto {
+.produto , .produtos-kid {
     display: flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
+}
+
+.produtos-kid div h2 span {
+    color: var(--rosa-escuro);
+}
+
+.produtos-kid .image-kid {
+    max-width: calc(100 / 16 * 1rem);
+    max-height: calc(100 / 16 * 1rem);
+    transition: all 0.2s ease-in;
+}
+
+.produtos-kid .image-kid:hover {
+    transform: scale(1.1);
 }
 
 .oculos-belle {
