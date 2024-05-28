@@ -8,7 +8,7 @@ let imagemAtual = 0;
 setaAvancar.addEventListener('click', function (){
 
     if(imagemAtual === images.length - 1 ){
-        alert("Chegou ao final");
+        alert("Gostaria de informá-la, que você chegou no final do nosso catalago de imagens. Aperte a seta para voltar conforme solicitado. Agora, o banner ficará parada por não haver mais imagens.");
         return;
     }
     imagemAtual++;
@@ -22,7 +22,7 @@ setaAvancar.addEventListener('click', function (){
 setaVoltar.addEventListener('click', function(){
     
     if(imagemAtual === 0){
-        alert("Chegou ao inicio");
+        alert("Gostaria de informá-la, que você chegou no final do nosso catalago de imagens. Aperte a seta para avançar conforme solicitado. Agora, o banner ficará parada por não haver mais imagens.");
         return;
     }
     imagemAtual--;
