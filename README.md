@@ -30,6 +30,6 @@ Ladinge Page for Belle Optical Store with a focus on  showcasing it's services
 - CSS
 
 ## Site para a Hospedagem, Technologies used
--
+- Hosgator
 
 ## O que eu Aprendir com essas Tecnologias , What l learned from  these technologies.
