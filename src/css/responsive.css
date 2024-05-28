@@ -24,15 +24,19 @@
     .home .seta-avancar {
         display: none;
     }
-}
 
-@media (max-width: 375px) {
-    .sobre .container-sobre div .logo-belle {
-        max-width: calc(300 / 16 * 1rem);
+    .container-sobre .sobre-informacoes h2 {
+        justify-content: center;
     }
 
     .produtos , .produtos-kid {
         height: unset;
         padding: 1rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .sobre .container-sobre div .logo-belle {
+        max-width: calc(300 / 16 * 1rem);
     }
 }

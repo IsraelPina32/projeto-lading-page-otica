@@ -37,14 +37,17 @@ function mostrarImagemAtual() {
 };
 
 function esconderOuMostarAsSetas() {
+
     const naoEhAPrimeiraImage = imagemAtual !== 0;
+
     if (naoEhAPrimeiraImage) {
-        setaAvancar.classList.remove("opacidade");
+        setaVoltar.classList.remove("opacidade");
     } else {
-        setaAvancar.classList.add("opacidade");
+        setaVoltar.classList.add("opacidade");
     }
 
-    const ultimaImagem = imagemAtual !== 0 && imagemAtual == images.length - 1;
+    const ultimaImagem = imagemAtual !== 0 && imagemAtual === images.length - 1;
+
     if (ultimaImagem) {
         setaAvancar.classList.add("opacidade");
     } else {
