@@ -70,15 +70,15 @@ button {
 }
 
 .home .seta-voltar {
+    left: 4%;
+}
+
+.home .seta-avancar {
     right: 4%;
     transform: rotateY(180deg);
 }
 
-.home .seta-avancar {
-    left: 4%;
-}
-
-.home .seta-avancar:hover{
+.home .seta-voltar:hover{
     transform: scale(1.2);
 }
 
