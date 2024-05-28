@@ -82,12 +82,16 @@ button {
     transform: scale(1.2);
 }
 
+.opacidade {
+    opacity: 0.7;
+}
+
 
 .home .titulo-home {
     font-family: var(--fonte-secundaria);
-    color: var(--azul-escuro);
+    color: var(--azul-claro);
     font-size: 1.9rem;
-    font-weight: 600;
+    font-weight: 900;
     padding: 0.7rem;
 }
 
