@@ -23,6 +23,7 @@ Ladinge Page for Belle Optical Store with a focus on  showcasing it's services
 
 
 ## Tecnologias utilizadas, Technologies 
+
  <h2> 💻Frontend: </h2>
  <img width="500px" src="https://skillicons.dev/icons?i=materialui,css,html,javascript,git" />
 
@@ -34,3 +35,5 @@ Ladinge Page for Belle Optical Store with a focus on  showcasing it's services
 - Hosgator
 
 ## O que eu Aprendir com essas Tecnologias , What l learned from  these technologies.
+O Apredizado que tive foi um reforçamentos de minhas habilidades com a minha equipe , utilizando html , css e javascript e git.
+utlizando tanto a parte de responsividade como também a animação em javascript como uma interação
