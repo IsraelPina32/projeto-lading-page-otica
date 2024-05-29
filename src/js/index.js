@@ -2,7 +2,6 @@ const images = document.querySelectorAll('.slide');
 const setaAvancar = document.getElementById('seta-avancar');
 const setaVoltar = document.getElementById('seta-voltar');
 
-
 let imagemAtual = 0;
 
 setaAvancar.addEventListener('click', function (){
@@ -46,7 +45,7 @@ function esconderOuMostarAsSetas() {
         setaVoltar.classList.add("opacidade");
     }
 
-    const ultimaImagem = imagemAtual !== 0 && imagemAtual === images.length - 1;
+    const ultimaImagem = imagemAtual === images.length - 1;
 
     if (ultimaImagem) {
         setaAvancar.classList.add("opacidade");
