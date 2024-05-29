@@ -19,7 +19,7 @@ Ladinge Page for Belle Optical Store with a focus on  showcasing it's services
 <h1>Mobile:</h1>
 
 
- <img src="./src/img/animação-mobile.gif"" alt="Lading page Gif Mobile" height="600px" width="300px">  
+ <img src="./src/img/animação-mobile.gif" alt="Lading page Gif Mobile" height="600px" width="300px">  
 
 
 ## Tecnologias utilizadas, Technologies 
