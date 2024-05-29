@@ -35,5 +35,9 @@ Ladinge Page for Belle Optical Store with a focus on  showcasing it's services
 - Hosgator
 
 ## O que eu Aprendir com essas Tecnologias , What l learned from  these technologies.
-O Apredizado que tive foi um reforçamentos de minhas habilidades com a minha equipe , utilizando html , css e javascript e git.
-utlizando tanto a parte de responsividade como também a animação em javascript como uma interação
+O Apredizado que tive foi um reforçamento de minhas habilidades com a minha equipe , utilizando html , css e javascript e git com Github
+utlizando tanto a parte de responsividade como também a animação em javascript como parte interativa.
+Também aprendemos os commits que são muito importantes na área profissional como usar o git em si.
+
+The learnig i had was a reinforcement of my skills with my team , using html , css , javascript and Git with GitHub. Using both the responsiveness part and also javascript animation as an interactive part.
+We also lerned  the commits that are very important in the professional area how to use git itself
