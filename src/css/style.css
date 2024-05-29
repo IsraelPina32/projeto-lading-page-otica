@@ -146,6 +146,7 @@ button {
     font-weight: 400;
     font-size: 1.2rem;
     padding: 0.6rem;
+    text-align: center;
 }
 
 .produtos , .produtos-kid {
@@ -169,7 +170,8 @@ button {
     margin-bottom: 1rem;
 }
 
-.produtos div , .produtos-kid div {
+.produtos div , 
+.produtos-kid div {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -184,13 +186,15 @@ button {
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    height: unset;
 }
 
 .produtos-kid div h2 span {
     color: var(--rosa-escuro);
 }
 
-.produtos-kid .image-kid {
+.produtos-kid .image-kid,
+.produtos-kid .image-pato {
     max-width: calc(100 / 16 * 1rem);
     max-height: calc(100 / 16 * 1rem);
     transition: all 0.2s ease-in;
@@ -200,8 +204,12 @@ button {
     transform: scale(1.1);
 }
 
+.produtos-kid div:last-child {
+    padding: 1rem;
+}
+
 .oculos-belle {
-    height: calc(140 / 16 * 1rem);
+    max-height: calc(150 / 16 * 1rem);
     max-width: calc(180 / 16 * 1rem);
     border-radius: 5px;
     transition: 0.2s ease-in-out;
@@ -209,7 +217,7 @@ button {
 
 .produto p {
     font-family: var(--fonte-secundaria);
-    font-weight: 600;
+    font-weight: 900;
     color: var(--azul-escuro);
 }
 
@@ -233,11 +241,16 @@ button {
     gap: 1rem;
 }
 
-.contato div, .contato div .redes-sociais  {
+.contato div, 
+.contato div .redes-sociais  {
     display: flex;
     align-items: center;
     gap: 0.5rem;
     padding: 0.5rem 0.5rem;
+}
+
+.contato div {
+    border-bottom: 1px solid;
 }
 
 .contato div .redes-sociais li a img {
