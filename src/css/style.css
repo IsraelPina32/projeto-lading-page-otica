@@ -50,7 +50,7 @@ button {
 }
 
 .slide-3 {
-    background-image: url(../img/propraganda-2.jpg);
+    background-image: url(../img/Banner-3.png);
 }
 
 .home .container-home {
@@ -136,21 +136,16 @@ button {
 .container-sobre .sobre-informacoes h2{
     font-family: var(--fonte-secundaria);
     color: var(--azul-claro);
-    font-weight: 500;
     font-size: 1.5rem;
+    padding: 0.5rem;
     margin-bottom: 0.9rem;
-    display: flex;
-    justify-content: flex-end;
 }
 
 .container-sobre .sobre-informacoes p {
     color: var(--azul-claro);
-    font-weight: 500;
+    font-weight: 400;
     font-size: 1.2rem;
-}
-
-.container-sobre .sobre-informacoes span {
-    color: var(--azul-escuro);
+    padding: 0.6rem;
 }
 
 .produtos , .produtos-kid {
@@ -160,11 +155,9 @@ button {
     align-items: center;
     flex-direction: column;
     background-color: var(--branco-cinza);
+    padding: 0.7rem;
 }
 
-.produtos-kid {
-    background-color: var(--azul-marinho);
-}
 
 .produtos-kid div:first-child {
     padding: 1rem;
@@ -185,7 +178,8 @@ button {
     gap: 1rem;
 }
 
-.produto , .produtos-kid {
+.produto ,
+.produtos-kid {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -217,6 +211,10 @@ button {
     font-family: var(--fonte-secundaria);
     font-weight: 600;
     color: var(--azul-escuro);
+}
+
+.produto span {
+    font-weight: 600;
 }
 
 .oculos-belle:hover {
