@@ -36,7 +36,7 @@
     }
 }
 
-@media (max-width: 375px) {
+@media (max-width: 425px) {
     .sobre .container-sobre div .logo-belle {
         max-width: calc(300 / 16 * 1rem);
     }
